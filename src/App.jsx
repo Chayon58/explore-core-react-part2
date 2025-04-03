@@ -22,6 +22,7 @@ const fetchPosts = async() =>{
   return res.json();
 }
 
+
 function App() {
   const friendsPromise = fetchFriends();
   const postsPromise = fetchPosts();
